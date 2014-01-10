@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9300F383187F935E005FFF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9300F382187F935E005FFF6E /* Foundation.framework */; };
-		9300F388187F935E005FFF6E /* BRYKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9300F387187F935E005FFF6E /* BRYKit.h */; };
-		9300F38A187F935E005FFF6E /* BRYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F389187F935E005FFF6E /* BRYKit.m */; };
 		9300F391187F935E005FFF6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9300F390187F935E005FFF6E /* XCTest.framework */; };
 		9300F392187F935E005FFF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9300F382187F935E005FFF6E /* Foundation.framework */; };
 		9300F394187F935F005FFF6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9300F393187F935F005FFF6E /* UIKit.framework */; };
 		9300F397187F935F005FFF6E /* libBRYKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9300F37F187F935E005FFF6E /* libBRYKit.a */; };
 		9300F39D187F935F005FFF6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9300F39B187F935F005FFF6E /* InfoPlist.strings */; };
 		9300F39F187F935F005FFF6E /* BRYKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F39E187F935F005FFF6E /* BRYKitTests.m */; };
+		9300F3AA187F9389005FFF6E /* NSObject+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F3A9187F9389005FFF6E /* NSObject+Safety.m */; };
+		9300F3AD187F9393005FFF6E /* NSArray+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F3AC187F9393005FFF6E /* NSArray+Blocks.m */; };
+		9300F3B2187F93FD005FFF6E /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F3B1187F93FD005FFF6E /* UIDevice+Hardware.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9300F388187F935E005FFF6E /* BRYKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +45,18 @@
 		9300F37F187F935E005FFF6E /* libBRYKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBRYKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9300F382187F935E005FFF6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9300F386187F935E005FFF6E /* BRYKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRYKit-Prefix.pch"; sourceTree = "<group>"; };
-		9300F387187F935E005FFF6E /* BRYKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRYKit.h; sourceTree = "<group>"; };
-		9300F389187F935E005FFF6E /* BRYKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYKit.m; sourceTree = "<group>"; };
 		9300F38F187F935E005FFF6E /* BRYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9300F390187F935E005FFF6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9300F393187F935F005FFF6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9300F39A187F935F005FFF6E /* BRYKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRYKitTests-Info.plist"; sourceTree = "<group>"; };
 		9300F39C187F935F005FFF6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9300F39E187F935F005FFF6E /* BRYKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYKitTests.m; sourceTree = "<group>"; };
+		9300F3A8187F9389005FFF6E /* NSObject+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Safety.h"; sourceTree = "<group>"; };
+		9300F3A9187F9389005FFF6E /* NSObject+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Safety.m"; sourceTree = "<group>"; };
+		9300F3AB187F9393005FFF6E /* NSArray+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Blocks.h"; sourceTree = "<group>"; };
+		9300F3AC187F9393005FFF6E /* NSArray+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Blocks.m"; sourceTree = "<group>"; };
+		9300F3B0187F93FD005FFF6E /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		9300F3B1187F93FD005FFF6E /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +114,8 @@
 		9300F384187F935E005FFF6E /* BRYKit */ = {
 			isa = PBXGroup;
 			children = (
-				9300F387187F935E005FFF6E /* BRYKit.h */,
-				9300F389187F935E005FFF6E /* BRYKit.m */,
+				9300F3AE187F93E1005FFF6E /* Foundation */,
+				9300F3AF187F93E9005FFF6E /* UIKit */,
 				9300F385187F935E005FFF6E /* Supporting Files */,
 			);
 			path = BRYKit;
@@ -141,6 +145,26 @@
 				9300F39B187F935F005FFF6E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9300F3AE187F93E1005FFF6E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				9300F3AB187F9393005FFF6E /* NSArray+Blocks.h */,
+				9300F3AC187F9393005FFF6E /* NSArray+Blocks.m */,
+				9300F3A8187F9389005FFF6E /* NSObject+Safety.h */,
+				9300F3A9187F9389005FFF6E /* NSObject+Safety.m */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		9300F3AF187F93E9005FFF6E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9300F3B0187F93FD005FFF6E /* UIDevice+Hardware.h */,
+				9300F3B1187F93FD005FFF6E /* UIDevice+Hardware.m */,
+			);
+			name = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9300F38A187F935E005FFF6E /* BRYKit.m in Sources */,
+				9300F3B2187F93FD005FFF6E /* UIDevice+Hardware.m in Sources */,
+				9300F3AD187F9393005FFF6E /* NSArray+Blocks.m in Sources */,
+				9300F3AA187F9389005FFF6E /* NSObject+Safety.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

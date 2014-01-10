@@ -17,6 +17,7 @@
 		9300F3AA187F9389005FFF6E /* NSObject+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F3A9187F9389005FFF6E /* NSObject+Safety.m */; };
 		9300F3AD187F9393005FFF6E /* NSArray+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F3AC187F9393005FFF6E /* NSArray+Blocks.m */; };
 		9300F3B2187F93FD005FFF6E /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300F3B1187F93FD005FFF6E /* UIDevice+Hardware.m */; };
+		93F10125187FA0E3001701DD /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F10124187FA0E3001701DD /* UIColor+Hexadecimal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,9 @@
 		9300F3AC187F9393005FFF6E /* NSArray+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Blocks.m"; sourceTree = "<group>"; };
 		9300F3B0187F93FD005FFF6E /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
 		9300F3B1187F93FD005FFF6E /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		93F10120187F96C5001701DD /* BRYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRYKit.h; sourceTree = "<group>"; };
+		93F10123187FA0E3001701DD /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
+		93F10124187FA0E3001701DD /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 		9300F384187F935E005FFF6E /* BRYKit */ = {
 			isa = PBXGroup;
 			children = (
+				93F10120187F96C5001701DD /* BRYKit.h */,
 				9300F3AE187F93E1005FFF6E /* Foundation */,
 				9300F3AF187F93E9005FFF6E /* UIKit */,
 				9300F385187F935E005FFF6E /* Supporting Files */,
@@ -163,6 +168,8 @@
 			children = (
 				9300F3B0187F93FD005FFF6E /* UIDevice+Hardware.h */,
 				9300F3B1187F93FD005FFF6E /* UIDevice+Hardware.m */,
+				93F10123187FA0E3001701DD /* UIColor+Hexadecimal.h */,
+				93F10124187FA0E3001701DD /* UIColor+Hexadecimal.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -249,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9300F3B2187F93FD005FFF6E /* UIDevice+Hardware.m in Sources */,
+				93F10125187FA0E3001701DD /* UIColor+Hexadecimal.m in Sources */,
 				9300F3AD187F9393005FFF6E /* NSArray+Blocks.m in Sources */,
 				9300F3AA187F9389005FFF6E /* NSObject+Safety.m in Sources */,
 			);
@@ -435,6 +443,7 @@
 				9300F3A4187F935F005FFF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9300F3A5187F935F005FFF6E /* Build configuration list for PBXNativeTarget "BRYKitTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +452,7 @@
 				9300F3A7187F935F005FFF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
